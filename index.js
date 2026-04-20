@@ -1,19 +1,19 @@
 
-let edad=document.getElementById("edad")
+let num1=document.getElementById("num1")
+let num2=document.getElementById("num2")
+let num3
 let button=document.getElementById("button")
 button.addEventListener("click",respuesta)
-function respuesta(){   
+function respuesta(){
 
-if (edad.value>=18){
+num3= Number(num1.value) +  Number(num2.value)
 
-alert ("Usted es mayor de edad")
+alert ("El resultado es"+"   " +num3)
 
 
 
-}
 
-else{
-    alert ("Usted es menor de edad")
-}
+
+
 
 }
